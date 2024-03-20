@@ -20,4 +20,4 @@ async def on_message(message):
     elif  message.content.startswith('-randomnumber'):
         await message.channel.send(random.randint(-10000, 10000))
         
-client.run("MTIxNzI1Njg1NDExMjE3ODIyNw.GJA19o.PpkbWe7c9K5vZxpzOTWWsQ2KsXzmebKKDh1A-A")
+client.run("Token")
